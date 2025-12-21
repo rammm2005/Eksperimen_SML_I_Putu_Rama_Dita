@@ -34,3 +34,7 @@ jobs:
         with:
           name: preprocessed-dataset
           path: bcc_preprocessing/bbc_news_preprocessing.csv
+      - name: Debug output files
+        run: |
+          echo "=== LIST FILE ==="
+          ls -R
