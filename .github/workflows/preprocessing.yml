@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: preprocessed-dataset
-          path: preprocessing/preprocessed_bbc_news.csv
+          path: preprocessing/bbc_news_preprocessing.csv
       - name: Debug output files
         run: |
           echo "=== LIST FILE ==="
