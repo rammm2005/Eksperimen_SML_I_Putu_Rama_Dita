@@ -80,7 +80,7 @@ def preprocess_bbc_news(
 
 
 if __name__ == "__main__":
-    INPUT_DATASET = "bbc_news_dataset/bbc_news.csv"
+    INPUT_DATASET = "bbc_news_raw/bbc_news.csv"
     OUTPUT_DATASET = "preprocessing/bbc_news_preprocessing.csv"
 
     preprocess_bbc_news(
@@ -89,4 +89,5 @@ if __name__ == "__main__":
     )
 
     print("Preprocessing selesai. Dataset tersimpan pada:", OUTPUT_DATASET)
+
 
