@@ -27,7 +27,7 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_Rama.py
+          python preprocessing/automate_I-Putu-Rama-Dita.py
 
       - name: Upload preprocessing result
         uses: actions/upload-artifact@v4
